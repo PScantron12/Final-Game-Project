@@ -1,0 +1,779 @@
+fileFormatVersion: 2
+guid: fba7afc6d2b7458409e7b41aa51b7580
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4249503060400517357
+    second: Tiles_Grassland_Size_1500_Percent_0
+  - first:
+      213: -1076685762127368147
+    second: Tiles_Grassland_Size_1500_Percent_1
+  - first:
+      213: 1612761179572968601
+    second: Tiles_Grassland_Size_1500_Percent_2
+  - first:
+      213: 4395055929852174320
+    second: Tiles_Grassland_Size_1500_Percent_3
+  - first:
+      213: 8838206346747448997
+    second: Tiles_Grassland_Size_1500_Percent_4
+  - first:
+      213: -8741601091920826843
+    second: Tiles_Grassland_Size_1500_Percent_5
+  - first:
+      213: -8995844390913264478
+    second: Tiles_Grassland_Size_1500_Percent_6
+  - first:
+      213: 6071482136179530418
+    second: Tiles_Grassland_Size_1500_Percent_7
+  - first:
+      213: -9079518426333849103
+    second: Tiles_Grassland_Size_1500_Percent_8
+  - first:
+      213: -1270536426150993352
+    second: Tiles_Grassland_Size_1500_Percent_9
+  - first:
+      213: 8643258664873890661
+    second: Tiles_Grassland_Size_1500_Percent_10
+  - first:
+      213: -6694717537619453519
+    second: Tiles_Grassland_Size_1500_Percent_11
+  - first:
+      213: 4166070148444607452
+    second: Tiles_Grassland_Size_1500_Percent_12
+  - first:
+      213: -5888991732110247231
+    second: Tiles_Grassland_Size_1500_Percent_13
+  - first:
+      213: 1548211106430715088
+    second: Tiles_Grassland_Size_1500_Percent_14
+  - first:
+      213: -3642660298584997234
+    second: Tiles_Grassland_Size_1500_Percent_15
+  - first:
+      213: 1169146308247461025
+    second: Tiles_Grassland_Size_1500_Percent_16
+  - first:
+      213: 8817676004107900108
+    second: Tiles_Grassland_Size_1500_Percent_17
+  - first:
+      213: 8286329537407923506
+    second: Tiles_Grassland_Size_1500_Percent_18
+  - first:
+      213: 7175348328720616832
+    second: Tiles_Grassland_Size_1500_Percent_19
+  - first:
+      213: -9062311897227645969
+    second: Tiles_Grassland_Size_1500_Percent_20
+  - first:
+      213: 1129561212502309186
+    second: Tiles_Grassland_Size_1500_Percent_21
+  - first:
+      213: 9098952084618509465
+    second: Tiles_Grassland_Size_1500_Percent_22
+  - first:
+      213: -5617593015058619288
+    second: Tiles_Grassland_Size_1500_Percent_23
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_0
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 960
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ebf2899d18f6e44942d925f4ce7f23
+      internalID: -4249503060400517357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 960
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51b284e8fa53d84cb4f2585da6910a7
+      internalID: -1076685762127368147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_2
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 960
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11060866bf084e746aad81532c2cbc7e
+      internalID: 1612761179572968601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a250132fa12ff9741b4c49c83d836eb7
+      internalID: 4395055929852174320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_4
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 960
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e9b9f06a8498d459560e1e93d3de3d
+      internalID: 8838206346747448997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb2f6f3c0b6d974a9d9e067eab6bd7f
+      internalID: -8741601091920826843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 720
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1259fa3de19e0a240844423426403057
+      internalID: -8995844390913264478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 720
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47822801c9b5c6b4188dfa5b0c3c8dc2
+      internalID: 6071482136179530418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_8
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 720
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abf210efad44d841aacff4b948fbf5f
+      internalID: -9079518426333849103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_9
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 720
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eafd686c6ac49a4a842d0ac689d4765
+      internalID: -1270536426150993352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 720
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22077b4843da12418385e607e390e3e
+      internalID: 8643258664873890661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bc4cb4a864969459ca15a81a928a8e
+      internalID: -6694717537619453519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27479adb28bbb04d8834ad437ce09f3
+      internalID: 4166070148444607452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_13
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a70eb582cb6a04aa6b593c3a1124bd
+      internalID: -5888991732110247231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_14
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429b77ca6400ff543a71f30d134fbb5b
+      internalID: 1548211106430715088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 480
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b7ab4370c24e749b6a1c92163439df
+      internalID: -3642660298584997234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 480
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4325ad544973a64184dd06908e0a1c0
+      internalID: 1169146308247461025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d452bdcbbf3193c44a71546baa2b80a6
+      internalID: 8817676004107900108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be2b5d06702c7141bf598d3dd8302bc
+      internalID: 8286329537407923506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_19
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa063f4c14648404a80ae90b739a17f8
+      internalID: 7175348328720616832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_20
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a58102385f7a84eaade2015423359c
+      internalID: -9062311897227645969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_21
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04eccd17f8d40c74b9396411287a8b51
+      internalID: 1129561212502309186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_22
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2383bddf1247184892b8aefb564a642
+      internalID: 9098952084618509465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Grassland_Size_1500_Percent_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c1f7d780957544bb3d13a810cabde7
+      internalID: -5617593015058619288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tiles_Grassland_Size_1500_Percent_0: -4249503060400517357
+      Tiles_Grassland_Size_1500_Percent_1: -1076685762127368147
+      Tiles_Grassland_Size_1500_Percent_10: 8643258664873890661
+      Tiles_Grassland_Size_1500_Percent_11: -6694717537619453519
+      Tiles_Grassland_Size_1500_Percent_12: 4166070148444607452
+      Tiles_Grassland_Size_1500_Percent_13: -5888991732110247231
+      Tiles_Grassland_Size_1500_Percent_14: 1548211106430715088
+      Tiles_Grassland_Size_1500_Percent_15: -3642660298584997234
+      Tiles_Grassland_Size_1500_Percent_16: 1169146308247461025
+      Tiles_Grassland_Size_1500_Percent_17: 8817676004107900108
+      Tiles_Grassland_Size_1500_Percent_18: 8286329537407923506
+      Tiles_Grassland_Size_1500_Percent_19: 7175348328720616832
+      Tiles_Grassland_Size_1500_Percent_2: 1612761179572968601
+      Tiles_Grassland_Size_1500_Percent_20: -9062311897227645969
+      Tiles_Grassland_Size_1500_Percent_21: 1129561212502309186
+      Tiles_Grassland_Size_1500_Percent_22: 9098952084618509465
+      Tiles_Grassland_Size_1500_Percent_23: -5617593015058619288
+      Tiles_Grassland_Size_1500_Percent_3: 4395055929852174320
+      Tiles_Grassland_Size_1500_Percent_4: 8838206346747448997
+      Tiles_Grassland_Size_1500_Percent_5: -8741601091920826843
+      Tiles_Grassland_Size_1500_Percent_6: -8995844390913264478
+      Tiles_Grassland_Size_1500_Percent_7: 6071482136179530418
+      Tiles_Grassland_Size_1500_Percent_8: -9079518426333849103
+      Tiles_Grassland_Size_1500_Percent_9: -1270536426150993352
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
