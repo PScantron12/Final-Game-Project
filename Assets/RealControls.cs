@@ -31,7 +31,7 @@ public class RealControls : MonoBehaviour
             if (isOnGround())
             {
                 rb.velocity = Vector2.zero;
-                rb.AddForce(Vector2.up * 38.5f, ForceMode2D.Impulse);
+                rb.AddForce(Vector2.up * 38.4f, ForceMode2D.Impulse);
             }
         }
     }
