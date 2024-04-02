@@ -8,7 +8,7 @@ public class RealControls : MonoBehaviour
     //takes selected speed 1-4
     public Speeds currentSpeed;
     //correlates to selected speed
-    float[] speedVals = { 8.6f, 10.4f, 12.96f, 15.6f, 20.77f };
+    float[] speedVals = { 8.6f, 10.4f, 12.96f, 15.6f, 22.77f };
 
     public Transform GroundCheckTrans;
     public float GroundCheckRad;
@@ -31,7 +31,7 @@ public class RealControls : MonoBehaviour
             if (isOnGround())
             {
                 rb.velocity = Vector2.zero;
-                rb.AddForce(Vector2.up * 35f, ForceMode2D.Impulse);
+                rb.AddForce(Vector2.up * 37f, ForceMode2D.Impulse);
             }
         }
     }
