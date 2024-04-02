@@ -3,5 +3,4 @@
         <ui:Label tabindex="-1" text="Lives: 3" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 30px; color: rgb(255, 0, 0);" />
         <ui:Label tabindex="-1" text="Current Weapon :" parse-escape-sequences="true" display-tooltip-when-elided="true" style="bottom: auto; -unity-text-align: upper-left; visibility: visible; color: rgb(253, 0, 43);" />
     </ui:VisualElement>
-    <ui:ProgressBar value="25" title="Progress" focusable="false" style="bottom: 358px; flex-direction: column; color: rgb(0, 0, 0); -unity-text-outline-color: rgba(0, 0, 0, 0); position: absolute; width: 494px; left: 190px;" />
 </ui:UXML>
