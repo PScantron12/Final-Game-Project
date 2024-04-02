@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Speeds { slow = 0, normal = 1, fast = 2, faster = 3, fastest = 4 };
+public enum Speeds { slow = 0, normal = 1, fast = 2, faster = 3, fastest = 4, stop = 5 };
 public class RealControls : MonoBehaviour
 {
     //takes selected speed 1-4
     public Speeds currentSpeed;
     //correlates to selected speed
-    float[] speedVals = { 8.6f, 10.4f, 12.96f, 15.6f, 22.77f };
+    float[] speedVals = { 8.6f, 10.4f, 12.96f, 15.6f, 24.1f, 0 };
 
     public Transform GroundCheckTrans;
     public float GroundCheckRad;
@@ -26,12 +26,12 @@ public class RealControls : MonoBehaviour
         transform.position += Vector3.right * speedVals[(int)currentSpeed] * Time.deltaTime;
 
         //determines jump button
-        if (Input.GetKey("space"))
+        if (Input.GetButton("Jump"))
         {
             if (isOnGround())
             {
                 rb.velocity = Vector2.zero;
-                rb.AddForce(Vector2.up * 37f, ForceMode2D.Impulse);
+                rb.AddForce(Vector2.up * 38.5f, ForceMode2D.Impulse);
             }
         }
     }
