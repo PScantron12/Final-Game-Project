@@ -1,6 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:VisualElement name="MainScreen" style="flex-grow: 1;">
-        <ui:Label tabindex="-1" text="Lives: 3" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-left; white-space: nowrap; align-items: flex-start; justify-content: flex-start; align-self: auto; color: rgb(255, 0, 0); font-size: 30px;" />
-        <ui:Label tabindex="-1" text="Current Weapon: Lazer Pistol" parse-escape-sequences="true" display-tooltip-when-elided="true" style="color: rgb(255, 0, 0); font-size: 30px;" />
+        <ui:Label tabindex="-1" text="Current Weapon: Lazer Pistol" parse-escape-sequences="true" display-tooltip-when-elided="true" style="color: rgb(255, 0, 0); font-size: 25px; -unity-font: initial;" />
     </ui:VisualElement>
 </ui:UXML>
