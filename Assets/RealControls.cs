@@ -23,8 +23,9 @@ public class RealControls : MonoBehaviour
     private void Update()
     {
         //transforms position by x number of units determined by selected speed i.e. 8.6 units per second for slower, 10.4 for normal, etc
-        transform.position += Vector3.right * speedVals[(int)currentSpeed] * Time.deltaTime;
-
+        if (!TouchingWall()) {
+            transform.position += Vector3.right * speedVals[(int)currentSpeed] * Time.deltaTime;
+        }
         //determines jump button
         if (Input.GetButton("Jump"))
         {
@@ -39,5 +40,9 @@ public class RealControls : MonoBehaviour
     bool isOnGround()
     {
         return Physics2D.OverlapCircle(GroundCheckTrans.position, GroundCheckRad, GroundMask);
+    }
+    bool TouchingWall()
+    {
+        return Physics2D.OverlapBox((Vector2)transform.position + (Vector2.right * 0.55f), Vector2.up * 0.8f + (Vector2.right * GroundCheckRad), 0, GroundMask);
     }
 }
