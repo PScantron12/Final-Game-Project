@@ -7,6 +7,9 @@ TagManager:
   - Spike
   - Enemy
   - Environment
+  - Shieldpower
+  - LazerPower
+  - SprayPower
   layers:
   - Default
   - TransparentFX
