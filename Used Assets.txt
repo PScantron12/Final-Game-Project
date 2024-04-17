@@ -1,2 +1,10 @@
+Unity Store Assets Used
+
 1. https://assetstore.unity.com/packages/2d/environments/pixel-tiles-177739
 2. https://assetstore.unity.com/packages/2d/environments/super-grotto-escape-pack-238393
+3. https://assetstore.unity.com/packages/tools/gui/mk-easy-text-light-140840
+
+Copyright Free Music Used
+
+1. https://www.youtube.com/watch?v=NAKj3HJX_tM&list=PLwJjxqYuirCLkq42mGw4XKGQlpZSfxsYd&index=21
+2. https://www.youtube.com/watch?v=PFbYfgStDQc&list=PLwJjxqYuirCLkq42mGw4XKGQlpZSfxsYd&index=16
