@@ -20,7 +20,7 @@ public class weapon : MonoBehaviour
         defaultColor = playerDefaultRender.material.color;
     }
 
-    void OnTriggerEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
         
         if (collision.gameObject.CompareTag("ShieldTag"))
@@ -51,21 +51,50 @@ public class weapon : MonoBehaviour
         }
         
     }
-    void Shoot() 
+   /* void Shoot() 
     {
         GameObject bulletToShoot;
-        if (playerDefaultRender.material.color == sprayGunColor)
-        {
+        switch(playerDefaultRender.material.color) {
+            case 'sprayGunColor':
             bulletToShoot = bulletSprayGunPrefab;
-        }
-        else if (playerDefaultRender.material.color == lazerGunColor)
-        {
+            break;
+            case 'lazerGunColor':
             bulletToShoot = bulletLazerGunPrefab;
+            break;
+            default:
+            bulletToShoot = bulletDefaultPrefab;
+            break;
+        }
+        
+        Instantiate(bulletToShoot, bulletPoint.position, bulletPoint.rotation);
+    } */
+    void Shoot() 
+    {
+        GameObject bulletToShoot = DetermineBulletType();
+        if (bulletToShoot != null)
+        {
+            Instantiate(bulletToShoot, bulletPoint.position, bulletPoint.rotation);
         }
         else
         {
-            bulletToShoot = bulletDefaultPrefab;
+            Debug.LogError("Bullet type not recognized.");
         }
-        Instantiate(bulletToShoot, bulletPoint.position, bulletPoint.rotation);
     }
+
+    GameObject DetermineBulletType()
+    {
+        if (playerDefaultRender.material.color == sprayGunColor)
+        {
+            return bulletSprayGunPrefab;
+        }
+        else if (playerDefaultRender.material.color == lazerGunColor)
+        {
+            return bulletLazerGunPrefab;
+        }
+        else
+        {
+            return bulletDefaultPrefab;
+        }
+    }
+
 }
