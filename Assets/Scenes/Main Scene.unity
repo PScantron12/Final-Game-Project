@@ -75088,7 +75088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
-  deathEffect: {fileID: 0}
+  deathEffect: {fileID: 21300000, guid: 723ff1335e7284fa48cc1ed14ddde4e8, type: 3}
 --- !u!1001 &1343959538
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83648,11 +83648,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 173483420631458870, guid: 27b9dba46bb90d14cba640c681210f58, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -390.6
+      value: -154.9
       objectReference: {fileID: 0}
     - target: {fileID: 173483420631458870, guid: 27b9dba46bb90d14cba640c681210f58, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.6
+      value: 5.3
       objectReference: {fileID: 0}
     - target: {fileID: 173483420631458870, guid: 27b9dba46bb90d14cba640c681210f58, type: 3}
       propertyPath: m_LocalPosition.z
@@ -84107,7 +84107,7 @@ PrefabInstance:
       objectReference: {fileID: 6102495155741867395, guid: 67f5e43ccd3b901418b50b95756b9a41, type: 3}
     - target: {fileID: 3995378589796676626, guid: 9ade424c7f910564a850cf1122277a29, type: 3}
       propertyPath: currentSpeed
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8252560766194126469, guid: 9ade424c7f910564a850cf1122277a29, type: 3}
       propertyPath: m_LocalPosition.x

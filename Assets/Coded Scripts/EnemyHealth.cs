@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     public int health = 50;
-    public GameObject deathEffect;
+    public Sprite deathEffect;
 
     public void TakeDamage (int damage)
      {

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 949557067476906690}
   - component: {fileID: 1221494606918204538}
   - component: {fileID: -4069393468325292047}
+  - component: {fileID: 9034188526341096774}
   m_Layer: 0
   m_Name: PE Horizontal
   m_TagString: Enemy
@@ -165,3 +166,17 @@ PolygonCollider2D:
       - {x: 0.22, y: -0.16}
       - {x: 0.22, y: -0.14}
   m_UseDelaunayMesh: 0
+--- !u!114 &9034188526341096774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9201022699787901490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28de6fe18c1189742a8b474b8ab96252, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
+  deathEffect: {fileID: 21300000, guid: 723ff1335e7284fa48cc1ed14ddde4e8, type: 3}

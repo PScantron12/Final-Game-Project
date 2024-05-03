@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6194593192924371746}
   - component: {fileID: 3450704345271357662}
   - component: {fileID: 3258582934862173988}
+  - component: {fileID: 8917480678248998286}
   m_Layer: 0
   m_Name: GYE Vertical
   m_TagString: Untagged
@@ -166,3 +167,17 @@ PolygonCollider2D:
       - {x: 0.22, y: -0.16}
       - {x: 0.22, y: -0.14}
   m_UseDelaunayMesh: 0
+--- !u!114 &8917480678248998286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5329023267442213189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28de6fe18c1189742a8b474b8ab96252, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
+  deathEffect: {fileID: 21300000, guid: 723ff1335e7284fa48cc1ed14ddde4e8, type: 3}
