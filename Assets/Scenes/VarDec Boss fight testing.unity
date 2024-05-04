@@ -338,7 +338,8 @@ Transform:
   m_LocalPosition: {x: 6, y: 0.9000775, z: 0.16072813}
   m_LocalScale: {x: 1.57571, y: 1.6480689, z: 0.16072813}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1394767190}
   m_Father: {fileID: 296688575}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &83665834
@@ -438,6 +439,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79dc31254c73a454fb491b478265919b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vardecBulletPoint: {fileID: 1394767190}
+  vardecBulletPrefab: {fileID: 0}
 --- !u!1 &296688566 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1892234932929461390, guid: 9ade424c7f910564a850cf1122277a29, type: 3}
@@ -49053,6 +49056,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1394767189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1394767190}
+  m_Layer: 0
+  m_Name: vardecBulletPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1394767190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394767189}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.3621249, y: 0.19309972, z: 0}
+  m_LocalScale: {x: 0.10200361, y: 0.09752513, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 83665833}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1472063481
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49266,70 +49300,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: shieldColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: shieldColor.b
-      value: 0.87843144
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: shieldColor.g
-      value: 0.10588236
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: shieldColor.r
-      value: 0.078431375
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: defaultColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: defaultColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: defaultColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: lazerGunColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: lazerGunColor.b
-      value: 0.9058824
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: lazerGunColor.g
-      value: 0.93725497
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: lazerGunColor.r
-      value: 0.0627451
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: sprayGunColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: sprayGunColor.b
-      value: 0.6784314
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: sprayGunColor.g
-      value: 0.027450982
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: sprayGunColor.r
-      value: 0.38823533
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: bulletDefaultPrefab
-      value: 
-      objectReference: {fileID: 6102495155741867395, guid: 67f5e43ccd3b901418b50b95756b9a41, type: 3}
     - target: {fileID: 3995378589796676626, guid: 9ade424c7f910564a850cf1122277a29, type: 3}
       propertyPath: currentSpeed
       value: 4
