@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4743239989087207191}
   - component: {fileID: 3995378589796676626}
   - component: {fileID: 8069689081884803416}
-  - component: {fileID: 2394966592793459196}
+  - component: {fileID: -8571992626459711938}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -253,7 +253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultSprite: {fileID: 21300000, guid: 196f329304aba4830aa874f84a038453, type: 3}
   jumpingSprite: {fileID: 21300000, guid: 82f0355d0a6d7418a91cda6d27d11191, type: 3}
---- !u!114 &2394966592793459196
+--- !u!114 &-8571992626459711938
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -265,8 +265,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aba0d6fe1dfdf97489e67f20e4400a0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPoint: {fileID: 7522219157088689743}
-  bulletPrefab: {fileID: 6102495155741867395, guid: 67f5e43ccd3b901418b50b95756b9a41, type: 3}
+  bulletPoint: {fileID: 0}
+  bulletDefaultPrefab: {fileID: 6102495155741867395, guid: 67f5e43ccd3b901418b50b95756b9a41, type: 3}
+  bulletSprayGunPrefab: {fileID: 0}
+  bulletLazerGunPrefab: {fileID: 0}
+  defaultColor: {r: 0, g: 0, b: 0, a: 0}
+  shieldColor: {r: 0, g: 0, b: 0, a: 0}
+  sprayGunColor: {r: 0, g: 0, b: 0, a: 0}
+  lazerGunColor: {r: 0, g: 0, b: 0, a: 0}
+  playerDefaultRender: {fileID: 0}
 --- !u!1 &3697767851363951331
 GameObject:
   m_ObjectHideFlags: 0
