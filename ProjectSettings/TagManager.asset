@@ -11,6 +11,7 @@ TagManager:
   - LazerPower
   - SprayPower
   - Level Loader
+  - Ground
   layers:
   - Default
   - TransparentFX
