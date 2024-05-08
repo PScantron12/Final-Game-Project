@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4908026521974953124}
   - component: {fileID: 6218173948700457799}
   - component: {fileID: -4397256342622757650}
-  - component: {fileID: -8528134080182616211}
   - component: {fileID: 5572945616815634545}
   - component: {fileID: 2486666490984281132}
+  - component: {fileID: -7995569624378667681}
   m_Layer: 0
   m_Name: vardecPellet
   m_TagString: Enemy
@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -381.09958, y: 2.316154, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalScale: {x: 8, y: 8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5afccfab7bd4c47179438dbfcaa6b16a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d6a421e0db1c545a99d44400ae0338a3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -115,7 +115,35 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &-8528134080182616211
+--- !u!114 &5572945616815634545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179131332835738487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f08595cc8bb84bfba3fb7c6423ff68b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vardecBulletSpeed: 40
+  vardecRb: {fileID: -4397256342622757650}
+--- !u!114 &2486666490984281132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179131332835738487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28de6fe18c1189742a8b474b8ab96252, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  deathEffect: {fileID: 21300000, guid: 723ff1335e7284fa48cc1ed14ddde4e8, type: 3}
+--- !u!58 &-7995569624378667681
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,32 +177,4 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.32
---- !u!114 &5572945616815634545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1179131332835738487}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f08595cc8bb84bfba3fb7c6423ff68b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vardecBulletSpeed: 40
-  vardecRb: {fileID: -4397256342622757650}
---- !u!114 &2486666490984281132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1179131332835738487}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28de6fe18c1189742a8b474b8ab96252, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  deathEffect: {fileID: 21300000, guid: 723ff1335e7284fa48cc1ed14ddde4e8, type: 3}
+  m_Radius: 0.1
