@@ -1,33 +1,48 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using System.Timers;
+using System.Collections;
 
-public class Vardecweapon : MonoBehaviour
+public class BossAttack : MonoBehaviour
 {
-    public Transform vardecBulletPoint;
-    public GameObject vardecBulletPrefab;
+    public Transform firingPoint; // The point from which projectiles are launched
+    public GameObject projectilePrefab; // The projectile prefab
 
-    void Start()
-    {
-        
-    }
+    public SpriteRenderer spriteRenderer; // The SpriteRenderer component of the boss
+    public Sprite defaultSprite; // Default sprite of the boss
+    public Sprite chargingSprite; // Sprite when charging
+    public Sprite shootingSprite; // Sprite when shooting
+
+    private float attackRate = 3f; // The boss attacks every 5 seconds
+    private float chargeTime = 1f; // Time spent charging
+    private float shootTime = 0.5f; // Time spent in shoot animation
+
+    private float nextAttackTime = 0f;
+
     void Update()
     {
-        Timer vardecBulletCooldown = new Timer();
-        vardecBulletCooldown.Interval = 3000;
-        vardecBulletCooldown.Elapsed += VardecBulletCooldown_Elapsed;
+        if (Time.time >= nextAttackTime)
+        {
+            StartCoroutine(PerformAttack());
+            nextAttackTime = Time.time + attackRate;
+        }
     }
 
-    private void VardecBulletCooldown_Elapsed(object sender, ElapsedEventArgs e)
+    IEnumerator PerformAttack()
     {
-        vardecShoot();
+        // Change to charging sprite
+        spriteRenderer.sprite = chargingSprite;
+        yield return new WaitForSeconds(chargeTime);
+
+        // Change to shooting sprite and shoot the projectile
+        spriteRenderer.sprite = shootingSprite;
+        ShootProjectile();
+        yield return new WaitForSeconds(shootTime);
+
+        // Return to default sprite
+        spriteRenderer.sprite = defaultSprite;
     }
 
-    void vardecShoot()
+    void ShootProjectile()
     {
-        GameObject vardecBulletToShoot = vardecBulletPrefab;
-        Instantiate(vardecBulletToShoot, vardecBulletPoint.position, vardecBulletPoint.rotation);
+        Instantiate(projectilePrefab, firingPoint.position, Quaternion.identity);
     }
 }
-
