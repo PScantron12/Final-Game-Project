@@ -31,13 +31,24 @@ public class EnemyControlTest : MonoBehaviour
             // If moving right and reached the target position, switch direction
             if (movingRight && destination == targetPosition)
             {
+                Flip();
                 movingRight = false;
             }
+
             // If moving left and reached the initial position, switch direction
             else if (!movingRight && destination == initialPosition)
-            {
+            {     
                 movingRight = true;
+                Flip();
             }
         }
     }
+    private void Flip()
+    {
+        // Multiply the x component of localScale by -1 to flip the sprite
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
+    }
 }
+
