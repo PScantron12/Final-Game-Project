@@ -187,7 +187,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
+  iniitialHealth: 50
+  deathSpriteRenderer: {fileID: 949557067476906690}
   deathEffect: {fileID: 21300000, guid: 723ff1335e7284fa48cc1ed14ddde4e8, type: 3}
+  deathTime: 0.1
 --- !u!114 &3099109957456833496
 MonoBehaviour:
   m_ObjectHideFlags: 0
