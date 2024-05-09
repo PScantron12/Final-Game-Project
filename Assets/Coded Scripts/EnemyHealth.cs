@@ -5,21 +5,29 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     public int health = 50;
+    public int iniitialHealth = 50;
+     public SpriteRenderer deathSpriteRenderer;
     public Sprite deathEffect;
-
+    public float deathTime = 0f;
     public void TakeDamage (int damage)
      {
         health -= damage;
 
         if (health <= 0)
         {
-            Die();
+            StartCoroutine(Die());
         }
     }
-   void Die ()
+   IEnumerator Die()
    {
-    Instantiate(deathEffect, transform.position, Quaternion.identity);
+
+    if (deathSpriteRenderer != null && deathEffect != null)
+    {
+    deathSpriteRenderer.sprite = deathEffect;
+    yield return new WaitForSeconds(deathTime);
+
     Destroy(gameObject);
+    }
    }
     void Start()
     {
