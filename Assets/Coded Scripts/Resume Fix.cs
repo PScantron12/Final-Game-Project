@@ -30,12 +30,14 @@ public class ResumeFix : MonoBehaviour
     {
         Time.timeScale = 1f;
         GameIsPaused = false;
+        AudioListener.pause = false;
     }
 
     void Pause()
     {
         Time.timeScale = 0f;
         GameIsPaused = true;
+        AudioListener.pause = true;
     }
 
 }
