@@ -262,7 +262,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2065893664976323940, guid: 95ee576a783b9e84a991455dd1fe2619, type: 3}
       propertyPath: health
-      value: 50
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 2065893664976323940, guid: 95ee576a783b9e84a991455dd1fe2619, type: 3}
       propertyPath: iniitialHealth

@@ -22,7 +22,7 @@ public class BossAttack : MonoBehaviour
         if (Time.time >= nextAttackTime)
         {
             StartCoroutine(PerformAttack());
-            nextAttackTime = Time.time + attackRate;
+            nextAttackTime = Time.time + Random.Range(0.5f,1.25f);
         }
     }
 

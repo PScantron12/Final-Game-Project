@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7019563174953477777}
   - component: {fileID: 2172561730284726644}
   - component: {fileID: -8833949623521640189}
+  - component: {fileID: 8243792317493910357}
   m_Layer: 0
   m_Name: GE Vertical
   m_TagString: Enemy
@@ -183,3 +184,17 @@ MonoBehaviour:
   deathSpriteRenderer: {fileID: 3364249756396464029}
   deathEffect: {fileID: 21300000, guid: 723ff1335e7284fa48cc1ed14ddde4e8, type: 3}
   deathTime: 0.1
+--- !u!114 &8243792317493910357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784492305379690129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b38f8afd6da60f45a8a8ecc92771333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite1: {fileID: 21300000, guid: 83eaf694239fb44ab8cacaa3684210c9, type: 3}
+  sprite2: {fileID: 21300000, guid: 69dabe47e67c749a4a18a5d90f19baca, type: 3}

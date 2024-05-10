@@ -117,7 +117,7 @@ MonoBehaviour:
   iniitialHealth: 50
   deathSpriteRenderer: {fileID: 6218173948700457799}
   deathEffect: {fileID: 21300000, guid: 5afccfab7bd4c47179438dbfcaa6b16a, type: 3}
-  deathTime: 0.25
+  deathTime: 0.12
 --- !u!58 &-7995569624378667681
 CircleCollider2D:
   m_ObjectHideFlags: 0
