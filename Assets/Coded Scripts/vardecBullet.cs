@@ -10,7 +10,7 @@ public class vardecBullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        vardecRb.velocity = (transform.right * -1) * vardecBulletSpeed;
     }
 
     // Update is called once per frame
