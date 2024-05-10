@@ -3292,11 +3292,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8252560766194126469, guid: 9ade424c7f910564a850cf1122277a29, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.45
+      value: 869.2
       objectReference: {fileID: 0}
     - target: {fileID: 8252560766194126469, guid: 9ade424c7f910564a850cf1122277a29, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.1
+      value: -1.7
       objectReference: {fileID: 0}
     - target: {fileID: 8252560766194126469, guid: 9ade424c7f910564a850cf1122277a29, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4609,8 +4609,8 @@ GameObject:
   - component: {fileID: 1760221987}
   - component: {fileID: 1760221986}
   m_Layer: 6
-  m_Name: Square (3)
-  m_TagString: Untagged
+  m_Name: DestructButton
+  m_TagString: SelfDestruct
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
