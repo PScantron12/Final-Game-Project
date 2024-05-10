@@ -244,6 +244,7 @@ GameObject:
   - component: {fileID: 530992906}
   - component: {fileID: 530992905}
   - component: {fileID: 530992904}
+  - component: {fileID: 530992907}
   m_Layer: 5
   m_Name: Credits Button
   m_TagString: Untagged
@@ -289,7 +290,7 @@ MonoBehaviour:
     m_SelectOnUp: {fileID: 965655917}
     m_SelectOnDown: {fileID: 606366047}
     m_SelectOnLeft: {fileID: 1684105707}
-    m_SelectOnRight: {fileID: 1337435510}
+    m_SelectOnRight: {fileID: 1684105707}
   m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -365,6 +366,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 530992902}
   m_CullTransparentMesh: 1
+--- !u!114 &530992907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530992902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1b1575d2d5de644bb946cef5ef4ebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  closeButton: {fileID: 530992904}
+  nextButtonToHighlight: {fileID: 1337435510}
 --- !u!1 &606366045
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,7 +439,7 @@ MonoBehaviour:
     m_SelectOnUp: {fileID: 530992904}
     m_SelectOnDown: {fileID: 965655917}
     m_SelectOnLeft: {fileID: 1684105707}
-    m_SelectOnRight: {fileID: 0}
+    m_SelectOnRight: {fileID: 1684105707}
   m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -551,6 +566,7 @@ GameObject:
   - component: {fileID: 616239462}
   - component: {fileID: 616239461}
   - component: {fileID: 616239460}
+  - component: {fileID: 616239463}
   m_Layer: 5
   m_Name: Exit Controls Button
   m_TagString: Untagged
@@ -593,10 +609,10 @@ MonoBehaviour:
   m_Navigation:
     m_Mode: 4
     m_WrapAround: 0
-    m_SelectOnUp: {fileID: 965655917}
-    m_SelectOnDown: {fileID: 965655917}
-    m_SelectOnLeft: {fileID: 965655917}
-    m_SelectOnRight: {fileID: 965655917}
+    m_SelectOnUp: {fileID: 616239460}
+    m_SelectOnDown: {fileID: 616239460}
+    m_SelectOnLeft: {fileID: 616239460}
+    m_SelectOnRight: {fileID: 616239460}
   m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -622,10 +638,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1916121898}
-        m_TargetAssemblyTypeName: StartGame, Assembly-CSharp
-        m_MethodName: loadLevel
-        m_Mode: 1
+      - m_Target: {fileID: 1916121895}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -672,6 +688,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 616239458}
   m_CullTransparentMesh: 1
+--- !u!114 &616239463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616239458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1b1575d2d5de644bb946cef5ef4ebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  closeButton: {fileID: 616239460}
+  nextButtonToHighlight: {fileID: 606366047}
 --- !u!1 &695663347
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,6 +1072,7 @@ GameObject:
   - component: {fileID: 965655919}
   - component: {fileID: 965655918}
   - component: {fileID: 965655917}
+  - component: {fileID: 965655920}
   m_Layer: 5
   m_Name: Controls Button
   m_TagString: Untagged
@@ -1087,7 +1118,7 @@ MonoBehaviour:
     m_SelectOnUp: {fileID: 606366047}
     m_SelectOnDown: {fileID: 530992904}
     m_SelectOnLeft: {fileID: 1684105707}
-    m_SelectOnRight: {fileID: 616239460}
+    m_SelectOnRight: {fileID: 1684105707}
   m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1163,6 +1194,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965655915}
   m_CullTransparentMesh: 1
+--- !u!114 &965655920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965655915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1b1575d2d5de644bb946cef5ef4ebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  closeButton: {fileID: 965655917}
+  nextButtonToHighlight: {fileID: 616239460}
 --- !u!1 &1047144059
 GameObject:
   m_ObjectHideFlags: 0
@@ -1504,6 +1549,7 @@ GameObject:
   - component: {fileID: 1337435512}
   - component: {fileID: 1337435511}
   - component: {fileID: 1337435510}
+  - component: {fileID: 1337435513}
   m_Layer: 5
   m_Name: Exit Credits Button
   m_TagString: Untagged
@@ -1546,10 +1592,10 @@ MonoBehaviour:
   m_Navigation:
     m_Mode: 4
     m_WrapAround: 0
-    m_SelectOnUp: {fileID: 530992904}
-    m_SelectOnDown: {fileID: 530992904}
-    m_SelectOnLeft: {fileID: 530992904}
-    m_SelectOnRight: {fileID: 530992904}
+    m_SelectOnUp: {fileID: 1337435510}
+    m_SelectOnDown: {fileID: 1337435510}
+    m_SelectOnLeft: {fileID: 1337435510}
+    m_SelectOnRight: {fileID: 1337435510}
   m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1575,10 +1621,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1682240525}
-        m_TargetAssemblyTypeName: StartGame, Assembly-CSharp
-        m_MethodName: loadLevel
-        m_Mode: 1
+      - m_Target: {fileID: 1682240522}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1625,6 +1671,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1337435508}
   m_CullTransparentMesh: 1
+--- !u!114 &1337435513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337435508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1b1575d2d5de644bb946cef5ef4ebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  closeButton: {fileID: 1337435510}
+  nextButtonToHighlight: {fileID: 606366047}
 --- !u!1 &1392069479
 GameObject:
   m_ObjectHideFlags: 0
