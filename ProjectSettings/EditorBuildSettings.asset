@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene2.unity
     guid: 1487eb2da8168634c82a352939b3f536
   - enabled: 1
+    path: Assets/Scenes/VARDEC's SPEECH.unity
+    guid: 7e1870b3671874b15a719a0a980cdc39
+  - enabled: 1
     path: Assets/Scenes/Final Level.unity
     guid: 6f4c255c73b84764dba130eea374638a
   m_configObjects: {}
