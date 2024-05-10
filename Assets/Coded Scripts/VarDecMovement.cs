@@ -2,31 +2,32 @@ using UnityEngine;
 
 public class BossMovement : MonoBehaviour
 {
-    // Horizontal speed (match or set relative to the player's speed)
     public float horizontalSpeed = 24.1f;
-
-    // Vertical movement amplitude and frequency
     public float verticalAmplitude = 5.0f;
     public float verticalFrequency = 2.0f;
 
-    // Start position for reference
     private Vector3 startPosition;
+    private float localTimer; // A timer that resets with the scene
 
     void Start()
     {
         startPosition = transform.position;
+        localTimer = 0f;  // Initialize timer
     }
 
     void Update()
     {
+        localTimer += Time.deltaTime; // Increment local timer by the time passed since last frame
+
         // Horizontal movement
-        float newX = startPosition.x + horizontalSpeed * Time.time;  // Keeps moving right
+        float newX = startPosition.x + horizontalSpeed * localTimer;  // Use localTimer instead of Time.time
 
         // Vertical movement using sine wave for smooth oscillation
-        float newY = startPosition.y + verticalAmplitude * Mathf.Sin(verticalFrequency * Time.time);
+        float newY = startPosition.y + verticalAmplitude * Mathf.Sin(verticalFrequency * localTimer);
 
         // Update the boss position
         transform.position = new Vector3(newX, newY, startPosition.z);
     }
 }
+
 
