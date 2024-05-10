@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -7995569624378667681}
   m_Layer: 0
   m_Name: vardecPellet
-  m_TagString: Enemy
+  m_TagString: VarBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,8 +141,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28de6fe18c1189742a8b474b8ab96252, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
-  deathEffect: {fileID: 21300000, guid: 723ff1335e7284fa48cc1ed14ddde4e8, type: 3}
+  health: 150
+  iniitialHealth: 50
+  deathSpriteRenderer: {fileID: 6218173948700457799}
+  deathEffect: {fileID: 21300000, guid: 5afccfab7bd4c47179438dbfcaa6b16a, type: 3}
+  deathTime: 0
 --- !u!58 &-7995569624378667681
 CircleCollider2D:
   m_ObjectHideFlags: 0

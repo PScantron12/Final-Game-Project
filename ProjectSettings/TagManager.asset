@@ -12,6 +12,7 @@ TagManager:
   - SprayPower
   - Level Loader
   - Ground
+  - VarBullet
   layers:
   - Default
   - TransparentFX
