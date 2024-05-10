@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Final Level.unity
     guid: 6f4c255c73b84764dba130eea374638a
   - enabled: 1
+    path: Assets/Scenes/VictoryScreenDeath.unity
+    guid: 66e94204dec8046beaabe6d2e1f73f64
+  - enabled: 1
     path: Assets/Scenes/Victory Screen.unity
     guid: cf1959f8a70c2489995826721087a904
   m_configObjects: {}

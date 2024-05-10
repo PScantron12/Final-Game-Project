@@ -10,11 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5080802684473028168}
   - component: {fileID: 7958829309284737007}
-  - component: {fileID: 2065893664976323940}
   - component: {fileID: 5308310367500950490}
   - component: {fileID: 6105587241431471913}
   - component: {fileID: 5790262477542232273}
-  - component: {fileID: 2134881271804445942}
   m_Layer: 0
   m_Name: VARDEC
   m_TagString: Enemy
@@ -90,23 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2065893664976323940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2796924205032616740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28de6fe18c1189742a8b474b8ab96252, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  iniitialHealth: 50
-  deathSpriteRenderer: {fileID: 7958829309284737007}
-  deathEffect: {fileID: 21300000, guid: 723ff1335e7284fa48cc1ed14ddde4e8, type: 3}
-  deathTime: 0.5
 --- !u!114 &5308310367500950490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,20 +178,6 @@ PolygonCollider2D:
       - {x: 0.28, y: -0.19999999}
       - {x: 0.17999999, y: 0}
   m_UseDelaunayMesh: 0
---- !u!114 &2134881271804445942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2796924205032616740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: beb64082ee606b241b91d532a3af182c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyHealth: {fileID: 0}
-  healthBarFill: {fileID: 0}
 --- !u!1 &3059033702142470262
 GameObject:
   m_ObjectHideFlags: 0
